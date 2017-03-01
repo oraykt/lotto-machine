@@ -70,7 +70,8 @@ int main() {
 		lotto = insertionSort(lotto);
 		Printer(lotto);
 		int EqualWinningNumbersCounter = checkWinningNumbers(lotto, createQuerry());
-		cout << "Lotonuzda " << EqualWinningNumbersCounter << " sayý tutturdunuz !" << endl;		system("pause");
+		cout << "Lotonuzda " << EqualWinningNumbersCounter << " sayÃ½ tutturdunuz !" << endl;
+		system("pause");
 	} while (btn != 1);
 	return 0;
   }
